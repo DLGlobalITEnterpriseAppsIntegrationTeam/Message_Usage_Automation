@@ -11,7 +11,9 @@ on:
 
 jobs:
   fetch-and-send-cookies:
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+
 
     steps:
       - name: Checkout Repository
